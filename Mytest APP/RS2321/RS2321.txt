@@ -1,0 +1,46 @@
+Configuration	RS2321
+STM32CubeMX 	4.27.0
+Date	11/20/2018
+MCU	STM32F302R8Tx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART1	Asynchronous	USART1_RX	PC5
+USART1	Asynchronous	USART1_TX	PC4
+USART1	Hardware Flow Control (RS485)	USART1_DE	PA12
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+24	PC4	USART1_TX	
+25	PC5	USART1_RX	
+45	PA12	USART1_DE	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : RS2321
+Project Folder : C:\Users\Administrator\Desktop\Mytest\RS2321
+Toolchain / IDE : MDK-ARM V5
+Firmware Package Name and Version : STM32Cube FW_F3 V1.10.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
